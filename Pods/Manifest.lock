@@ -1,0 +1,16 @@
+PODS:
+  - MJRefresh (3.1.0)
+  - TTTAttributedLabel (1.13.4)
+  - YYText (1.0.4)
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.1.0)
+  - TTTAttributedLabel (~> 1.13.4)
+  - YYText (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  YYText: 41761822986179828a27ccf82aa97c7b5483c2e2
+
+COCOAPODS: 0.39.0

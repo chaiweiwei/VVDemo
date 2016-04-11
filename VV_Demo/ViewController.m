@@ -7,21 +7,13 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "VVExampleController.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    VVExampleController *vc = [VVExampleController new];
+    [self pushViewController:vc animated:NO];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
