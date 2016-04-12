@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387B4E831CBCA477004F3185 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UI.m */; };
+		387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E851CBCA6D8004F3185 /* SqureListViewController.m */; };
 		387FCBD71CBB5CAF003DDD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCBD61CBB5CAF003DDD91 /* main.m */; };
 		387FCBDA1CBB5CAF003DDD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCBD91CBB5CAF003DDD91 /* AppDelegate.m */; };
 		387FCBE01CBB5CAF003DDD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387FCBDE1CBB5CAF003DDD91 /* Main.storyboard */; };
@@ -45,6 +47,10 @@
 /* Begin PBXFileReference section */
 		21D88FE34529D31B2CA42EC3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C4F90AB97630DCA2D155A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		387B4E811CBCA477004F3185 /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		387B4E821CBCA477004F3185 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
+		387B4E841CBCA6D8004F3185 /* SqureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqureListViewController.h; sourceTree = "<group>"; };
+		387B4E851CBCA6D8004F3185 /* SqureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqureListViewController.m; sourceTree = "<group>"; };
 		387FCBD21CBB5CAF003DDD91 /* VV_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VV_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387FCBD61CBB5CAF003DDD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		387FCBD81CBB5CAF003DDD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,6 +152,8 @@
 				387FCC091CBB6CF0003DDD91 /* VVExampleController.m */,
 				387FCC0B1CBB6DA6003DDD91 /* UrlRegexViewController.h */,
 				387FCC0C1CBB6DA6003DDD91 /* UrlRegexViewController.m */,
+				387B4E841CBCA6D8004F3185 /* SqureListViewController.h */,
+				387B4E851CBCA6D8004F3185 /* SqureListViewController.m */,
 				387FCBD51CBB5CAF003DDD91 /* Supporting Files */,
 			);
 			path = VV_Demo;
@@ -186,6 +194,8 @@
 		387FCC121CBB6DD1003DDD91 /* Vivi */ = {
 			isa = PBXGroup;
 			children = (
+				387B4E811CBCA477004F3185 /* UI.h */,
+				387B4E821CBCA477004F3185 /* UI.m */,
 				387FCC281CBB8469003DDD91 /* BaseView */,
 				387FCC201CBB8237003DDD91 /* Caragroy */,
 				387FCC191CBB7E41003DDD91 /* BaseViewController */,
@@ -422,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387B4E831CBCA477004F3185 /* UI.m in Sources */,
 				387FCC181CBB7A44003DDD91 /* ViewController.m in Sources */,
 				387FCC2B1CBB8476003DDD91 /* LoadingView.m in Sources */,
 				387FCC261CBB8439003DDD91 /* DataRequestTableViewController.m in Sources */,
@@ -432,6 +443,7 @@
 				387FCBD71CBB5CAF003DDD91 /* main.m in Sources */,
 				387FCC0A1CBB6CF0003DDD91 /* VVExampleController.m in Sources */,
 				387FCC231CBB8254003DDD91 /* UILabel+VerticalUpAlignment.m in Sources */,
+				387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
