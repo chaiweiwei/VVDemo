@@ -40,7 +40,8 @@
     }
     
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
-    [paragraphStyle setLineBreakMode:NSLineBreakByTruncatingTail];
+    //默认 计算高度用NSLineBreakByWordWrapping  显示用NSLineBreakByTruncatingTail
+    //paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
     [paragraphStyle setLineSpacing:space];
     
     //计算单行高度
@@ -67,7 +68,6 @@
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text];
     
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];
-    [paragraphStyle setLineBreakMode:NSLineBreakByTruncatingTail];
     [paragraphStyle setLineSpacing:space];
     [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, text.length)];
     [attributedString addAttribute:NSFontAttributeName value:self.font range:NSMakeRange(0, text.length)];

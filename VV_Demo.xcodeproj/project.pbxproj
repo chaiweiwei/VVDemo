@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		387B4E831CBCA477004F3185 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UI.m */; };
 		387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E851CBCA6D8004F3185 /* SqureListViewController.m */; };
+		387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */; };
+		387B4EA01CBCF80C004F3185 /* LabelSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387B4E9E1CBCF80C004F3185 /* LabelSizeViewController.xib */; };
 		387FCBD71CBB5CAF003DDD91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCBD61CBB5CAF003DDD91 /* main.m */; };
 		387FCBDA1CBB5CAF003DDD91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCBD91CBB5CAF003DDD91 /* AppDelegate.m */; };
 		387FCBE01CBB5CAF003DDD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387FCBDE1CBB5CAF003DDD91 /* Main.storyboard */; };
@@ -51,6 +53,9 @@
 		387B4E821CBCA477004F3185 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
 		387B4E841CBCA6D8004F3185 /* SqureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqureListViewController.h; sourceTree = "<group>"; };
 		387B4E851CBCA6D8004F3185 /* SqureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqureListViewController.m; sourceTree = "<group>"; };
+		387B4E9C1CBCF80C004F3185 /* LabelSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelSizeViewController.h; sourceTree = "<group>"; };
+		387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelSizeViewController.m; sourceTree = "<group>"; };
+		387B4E9E1CBCF80C004F3185 /* LabelSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelSizeViewController.xib; sourceTree = "<group>"; };
 		387FCBD21CBB5CAF003DDD91 /* VV_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VV_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387FCBD61CBB5CAF003DDD91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		387FCBD81CBB5CAF003DDD91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +159,9 @@
 				387FCC0C1CBB6DA6003DDD91 /* UrlRegexViewController.m */,
 				387B4E841CBCA6D8004F3185 /* SqureListViewController.h */,
 				387B4E851CBCA6D8004F3185 /* SqureListViewController.m */,
+				387B4E9C1CBCF80C004F3185 /* LabelSizeViewController.h */,
+				387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */,
+				387B4E9E1CBCF80C004F3185 /* LabelSizeViewController.xib */,
 				387FCBD51CBB5CAF003DDD91 /* Supporting Files */,
 			);
 			path = VV_Demo;
@@ -359,6 +367,7 @@
 			files = (
 				387FCBE51CBB5CAF003DDD91 /* LaunchScreen.storyboard in Resources */,
 				387FCBE21CBB5CAF003DDD91 /* Assets.xcassets in Resources */,
+				387B4EA01CBCF80C004F3185 /* LabelSizeViewController.xib in Resources */,
 				387FCBE01CBB5CAF003DDD91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +446,7 @@
 				387FCC2B1CBB8476003DDD91 /* LoadingView.m in Sources */,
 				387FCC261CBB8439003DDD91 /* DataRequestTableViewController.m in Sources */,
 				387FCC1F1CBB7E6B003DDD91 /* WebViewController.m in Sources */,
+				387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */,
 				387FCC111CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m in Sources */,
 				387FCC0D1CBB6DA6003DDD91 /* UrlRegexViewController.m in Sources */,
 				387FCBDA1CBB5CAF003DDD91 /* AppDelegate.m in Sources */,

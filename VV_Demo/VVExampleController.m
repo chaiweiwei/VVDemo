@@ -7,8 +7,6 @@
 //
 
 #import "VVExampleController.h"
-#import "WebViewController.h"
-#import "SqureListViewController.h"
 
 @interface VVExampleController()
 @property (nonatomic, strong) NSMutableArray *titles;
@@ -29,6 +27,7 @@
     [self addCell:@"正则表达 点击事件" class:@"UrlRegexViewController"];
     [self addCell:@"webView" class:@"WebViewController"];
     [self addCell:@"规则Rect列表" class:@"SqureListViewController"];
+    [self addCell:@"UILabel的计算" class:@"LabelSizeViewController"];
     [self.tableView reloadData];
 }
 
