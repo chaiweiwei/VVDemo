@@ -1,16 +1,35 @@
 PODS:
+  - Mantle (2.0.6):
+    - Mantle/extobjc (= 2.0.6)
+  - Mantle/extobjc (2.0.6)
   - MJRefresh (3.1.0)
   - TTTAttributedLabel (1.13.4)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YYCache (1.0.3)
+  - YYImage (1.0.1):
+    - YYImage/Core (= 1.0.1)
+  - YYImage/Core (1.0.1)
   - YYText (1.0.4)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
 
 DEPENDENCIES:
+  - Mantle
   - MJRefresh (~> 3.1.0)
   - TTTAttributedLabel (~> 1.13.4)
+  - UITableView+FDTemplateLayoutCell
   - YYText (~> 1.0.4)
+  - YYWebImage
 
 SPEC CHECKSUMS:
+  Mantle: 299966b00759634931699f69cb6a30b9239b944d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
   YYText: 41761822986179828a27ccf82aa97c7b5483c2e2
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
 
 COCOAPODS: 0.39.0

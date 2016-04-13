@@ -28,6 +28,8 @@
     [self addCell:@"webView" class:@"WebViewController"];
     [self addCell:@"规则Rect列表" class:@"SqureListViewController"];
     [self addCell:@"UILabel的计算" class:@"LabelSizeViewController"];
+    [self addCell:@"UIImageView model" class:@"UiimageModelViewController"];
+    [self addCell:@"Mantle NSNull" class:@"MantleTextViewController"];
     [self.tableView reloadData];
 }
 
