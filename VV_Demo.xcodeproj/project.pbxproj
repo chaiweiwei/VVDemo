@@ -13,6 +13,8 @@
 		386842B31CBE25DF00242674 /* MantleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386842B11CBE25DF00242674 /* MantleTextViewController.m */; };
 		386842B41CBE25DF00242674 /* MantleTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386842B21CBE25DF00242674 /* MantleTextViewController.xib */; };
 		386CDDC81CC092540018DD47 /* libMLeaksFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 386CDDC71CC092540018DD47 /* libMLeaksFinder.a */; };
+		386CDDD51CC09FAE0018DD47 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CDDD31CC09FAE0018DD47 /* TestTableViewCell.m */; };
+		386CDDD61CC09FAE0018DD47 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386CDDD41CC09FAE0018DD47 /* TestTableViewCell.xib */; };
 		387B4E831CBCA477004F3185 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UI.m */; };
 		387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E851CBCA6D8004F3185 /* SqureListViewController.m */; };
 		387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */; };
@@ -64,6 +66,9 @@
 		386842B11CBE25DF00242674 /* MantleTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleTextViewController.m; sourceTree = "<group>"; };
 		386842B21CBE25DF00242674 /* MantleTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MantleTextViewController.xib; sourceTree = "<group>"; };
 		386CDDC71CC092540018DD47 /* libMLeaksFinder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMLeaksFinder.a; path = "../../Downloads/MLeaksFinder-master/build/Debug-iphoneos/libMLeaksFinder.a"; sourceTree = "<group>"; };
+		386CDDD21CC09FAE0018DD47 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		386CDDD31CC09FAE0018DD47 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		386CDDD41CC09FAE0018DD47 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 		387B4E811CBCA477004F3185 /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
 		387B4E821CBCA477004F3185 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
 		387B4E841CBCA6D8004F3185 /* SqureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqureListViewController.h; sourceTree = "<group>"; };
@@ -150,6 +155,16 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		386CDDD11CC09F9D0018DD47 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				386CDDD21CC09FAE0018DD47 /* TestTableViewCell.h */,
+				386CDDD31CC09FAE0018DD47 /* TestTableViewCell.m */,
+				386CDDD41CC09FAE0018DD47 /* TestTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		387FCBC91CBB5CAF003DDD91 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +248,7 @@
 		387FCC121CBB6DD1003DDD91 /* Vivi */ = {
 			isa = PBXGroup;
 			children = (
+				386CDDD11CC09F9D0018DD47 /* Cell */,
 				386842A91CBE243100242674 /* Model */,
 				387B4E811CBCA477004F3185 /* UI.h */,
 				387B4E821CBCA477004F3185 /* UI.m */,
@@ -402,6 +418,7 @@
 				386842A81CBE007800242674 /* UiimageModelViewController.xib in Resources */,
 				386842B41CBE25DF00242674 /* MantleTextViewController.xib in Resources */,
 				387FCBE21CBB5CAF003DDD91 /* Assets.xcassets in Resources */,
+				386CDDD61CC09FAE0018DD47 /* TestTableViewCell.xib in Resources */,
 				387B4EA01CBCF80C004F3185 /* LabelSizeViewController.xib in Resources */,
 				387FCBE01CBB5CAF003DDD91 /* Main.storyboard in Resources */,
 			);
@@ -486,6 +503,7 @@
 				387FCC111CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m in Sources */,
 				387FCC0D1CBB6DA6003DDD91 /* UrlRegexViewController.m in Sources */,
 				387FCBDA1CBB5CAF003DDD91 /* AppDelegate.m in Sources */,
+				386CDDD51CC09FAE0018DD47 /* TestTableViewCell.m in Sources */,
 				386842B31CBE25DF00242674 /* MantleTextViewController.m in Sources */,
 				387FCBD71CBB5CAF003DDD91 /* main.m in Sources */,
 				386842A71CBE007800242674 /* UiimageModelViewController.m in Sources */,
