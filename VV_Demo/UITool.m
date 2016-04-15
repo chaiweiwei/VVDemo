@@ -6,9 +6,9 @@
 //  Copyright © 2016年 chaiweiwei. All rights reserved.
 //
 
-#import "UI.h"
+#import "UITool.h"
 
-@implementation UI
+@implementation UITool
 
 - (CGRect)getRectViewInSimpleSquareListUIWithWidth:(CGFloat)width left:(CGFloat)left lineSpace:(CGFloat)lineSpace column:(NSInteger)column index:(NSInteger)index{
     CGFloat x = 0;

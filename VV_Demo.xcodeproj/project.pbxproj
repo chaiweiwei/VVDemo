@@ -15,7 +15,10 @@
 		386CDDC81CC092540018DD47 /* libMLeaksFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 386CDDC71CC092540018DD47 /* libMLeaksFinder.a */; };
 		386CDDD51CC09FAE0018DD47 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CDDD31CC09FAE0018DD47 /* TestTableViewCell.m */; };
 		386CDDD61CC09FAE0018DD47 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386CDDD41CC09FAE0018DD47 /* TestTableViewCell.xib */; };
-		387B4E831CBCA477004F3185 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UI.m */; };
+		386CDDDB1CC0DE760018DD47 /* WZSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CDDDA1CC0DE760018DD47 /* WZSelectionView.m */; };
+		386CDDE01CC0DEAC0018DD47 /* SimpleSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386CDDDE1CC0DEAC0018DD47 /* SimpleSelectionViewController.m */; };
+		386CDDE11CC0DEAC0018DD47 /* SimpleSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386CDDDF1CC0DEAC0018DD47 /* SimpleSelectionViewController.xib */; };
+		387B4E831CBCA477004F3185 /* UITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UITool.m */; };
 		387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E851CBCA6D8004F3185 /* SqureListViewController.m */; };
 		387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */; };
 		387B4EA01CBCF80C004F3185 /* LabelSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387B4E9E1CBCF80C004F3185 /* LabelSizeViewController.xib */; };
@@ -69,8 +72,13 @@
 		386CDDD21CC09FAE0018DD47 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		386CDDD31CC09FAE0018DD47 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		386CDDD41CC09FAE0018DD47 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
-		387B4E811CBCA477004F3185 /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
-		387B4E821CBCA477004F3185 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
+		386CDDD91CC0DE760018DD47 /* WZSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZSelectionView.h; sourceTree = "<group>"; };
+		386CDDDA1CC0DE760018DD47 /* WZSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZSelectionView.m; sourceTree = "<group>"; };
+		386CDDDD1CC0DEAC0018DD47 /* SimpleSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSelectionViewController.h; sourceTree = "<group>"; };
+		386CDDDE1CC0DEAC0018DD47 /* SimpleSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleSelectionViewController.m; sourceTree = "<group>"; };
+		386CDDDF1CC0DEAC0018DD47 /* SimpleSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleSelectionViewController.xib; sourceTree = "<group>"; };
+		387B4E811CBCA477004F3185 /* UITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITool.h; sourceTree = "<group>"; };
+		387B4E821CBCA477004F3185 /* UITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITool.m; sourceTree = "<group>"; };
 		387B4E841CBCA6D8004F3185 /* SqureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqureListViewController.h; sourceTree = "<group>"; };
 		387B4E851CBCA6D8004F3185 /* SqureListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqureListViewController.m; sourceTree = "<group>"; };
 		387B4E9C1CBCF80C004F3185 /* LabelSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelSizeViewController.h; sourceTree = "<group>"; };
@@ -165,6 +173,38 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
+		386CDDE21CC0DF280018DD47 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				386CDDD91CC0DE760018DD47 /* WZSelectionView.h */,
+				386CDDDA1CC0DE760018DD47 /* WZSelectionView.m */,
+				387FCC291CBB8476003DDD91 /* LoadingView.h */,
+				387FCC2A1CBB8476003DDD91 /* LoadingView.m */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		386CDDE31CC0DF420018DD47 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				386CDDE51CC0E1080018DD47 /* Tool */,
+				387FCC201CBB8237003DDD91 /* Caragroy */,
+				387FCC131CBB6DDC003DDD91 /* Delegate */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		386CDDE51CC0E1080018DD47 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				387FCC0F1CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.h */,
+				387FCC101CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m */,
+				387B4E811CBCA477004F3185 /* UITool.h */,
+				387B4E821CBCA477004F3185 /* UITool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
 		387FCBC91CBB5CAF003DDD91 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +248,9 @@
 				386842B01CBE25DF00242674 /* MantleTextViewController.h */,
 				386842B11CBE25DF00242674 /* MantleTextViewController.m */,
 				386842B21CBE25DF00242674 /* MantleTextViewController.xib */,
+				386CDDDD1CC0DEAC0018DD47 /* SimpleSelectionViewController.h */,
+				386CDDDE1CC0DEAC0018DD47 /* SimpleSelectionViewController.m */,
+				386CDDDF1CC0DEAC0018DD47 /* SimpleSelectionViewController.xib */,
 				387FCBD51CBB5CAF003DDD91 /* Supporting Files */,
 			);
 			path = VV_Demo;
@@ -248,16 +291,10 @@
 		387FCC121CBB6DD1003DDD91 /* Vivi */ = {
 			isa = PBXGroup;
 			children = (
-				386CDDD11CC09F9D0018DD47 /* Cell */,
+				386CDDE31CC0DF420018DD47 /* Util */,
 				386842A91CBE243100242674 /* Model */,
-				387B4E811CBCA477004F3185 /* UI.h */,
-				387B4E821CBCA477004F3185 /* UI.m */,
-				387FCC281CBB8469003DDD91 /* BaseView */,
-				387FCC201CBB8237003DDD91 /* Caragroy */,
-				387FCC191CBB7E41003DDD91 /* BaseViewController */,
-				387FCC131CBB6DDC003DDD91 /* Delegate */,
-				387FCC0F1CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.h */,
-				387FCC101CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m */,
+				387FCC281CBB8469003DDD91 /* View */,
+				387FCC191CBB7E41003DDD91 /* ViewController */,
 			);
 			name = Vivi;
 			sourceTree = "<group>";
@@ -270,7 +307,7 @@
 			name = Delegate;
 			sourceTree = "<group>";
 		};
-		387FCC191CBB7E41003DDD91 /* BaseViewController */ = {
+		387FCC191CBB7E41003DDD91 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				387FCC1D1CBB7E6B003DDD91 /* WebViewController.h */,
@@ -278,7 +315,7 @@
 				387FCC241CBB8439003DDD91 /* DataRequestTableViewController.h */,
 				387FCC251CBB8439003DDD91 /* DataRequestTableViewController.m */,
 			);
-			name = BaseViewController;
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		387FCC201CBB8237003DDD91 /* Caragroy */ = {
@@ -290,13 +327,13 @@
 			name = Caragroy;
 			sourceTree = "<group>";
 		};
-		387FCC281CBB8469003DDD91 /* BaseView */ = {
+		387FCC281CBB8469003DDD91 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				387FCC291CBB8476003DDD91 /* LoadingView.h */,
-				387FCC2A1CBB8476003DDD91 /* LoadingView.m */,
+				386CDDE21CC0DF280018DD47 /* CustomView */,
+				386CDDD11CC09F9D0018DD47 /* Cell */,
 			);
-			name = BaseView;
+			name = View;
 			sourceTree = "<group>";
 		};
 		4BB76ED37897C106617BA9BD /* Frameworks */ = {
@@ -417,6 +454,7 @@
 				387FCBE51CBB5CAF003DDD91 /* LaunchScreen.storyboard in Resources */,
 				386842A81CBE007800242674 /* UiimageModelViewController.xib in Resources */,
 				386842B41CBE25DF00242674 /* MantleTextViewController.xib in Resources */,
+				386CDDE11CC0DEAC0018DD47 /* SimpleSelectionViewController.xib in Resources */,
 				387FCBE21CBB5CAF003DDD91 /* Assets.xcassets in Resources */,
 				386CDDD61CC09FAE0018DD47 /* TestTableViewCell.xib in Resources */,
 				387B4EA01CBCF80C004F3185 /* LabelSizeViewController.xib in Resources */,
@@ -493,12 +531,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387B4E831CBCA477004F3185 /* UI.m in Sources */,
+				387B4E831CBCA477004F3185 /* UITool.m in Sources */,
 				387FCC181CBB7A44003DDD91 /* ViewController.m in Sources */,
+				386CDDE01CC0DEAC0018DD47 /* SimpleSelectionViewController.m in Sources */,
 				387FCC2B1CBB8476003DDD91 /* LoadingView.m in Sources */,
 				387FCC261CBB8439003DDD91 /* DataRequestTableViewController.m in Sources */,
 				387FCC1F1CBB7E6B003DDD91 /* WebViewController.m in Sources */,
 				387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */,
+				386CDDDB1CC0DE760018DD47 /* WZSelectionView.m in Sources */,
 				386842AC1CBE244300242674 /* TestModel.m in Sources */,
 				387FCC111CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m in Sources */,
 				387FCC0D1CBB6DA6003DDD91 /* UrlRegexViewController.m in Sources */,

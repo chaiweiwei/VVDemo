@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface UI : NSObject
+@interface UITool : NSObject
 
 - (CGRect)getRectViewInSimpleSquareListUIWithWidth:(CGFloat)width left:(CGFloat)left lineSpace:(CGFloat)lineSpace column:(NSInteger)column index:(NSInteger)index;
 

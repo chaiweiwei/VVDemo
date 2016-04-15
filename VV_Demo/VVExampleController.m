@@ -30,6 +30,7 @@
     [self addCell:@"UILabel的计算" class:@"LabelSizeViewController"];
     [self addCell:@"UIImageView model" class:@"UiimageModelViewController"];
     [self addCell:@"Mantle NSNull" class:@"MantleTextViewController"];
+    [self addCell:@"UI空间封装demo" class:@"SimpleSelectionViewController"];
     [self.tableView reloadData];
 }
 
