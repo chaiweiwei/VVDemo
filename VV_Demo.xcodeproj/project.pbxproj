@@ -12,6 +12,7 @@
 		386842AC1CBE244300242674 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 386842AB1CBE244300242674 /* TestModel.m */; };
 		386842B31CBE25DF00242674 /* MantleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386842B11CBE25DF00242674 /* MantleTextViewController.m */; };
 		386842B41CBE25DF00242674 /* MantleTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 386842B21CBE25DF00242674 /* MantleTextViewController.xib */; };
+		386CDDC81CC092540018DD47 /* libMLeaksFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 386CDDC71CC092540018DD47 /* libMLeaksFinder.a */; };
 		387B4E831CBCA477004F3185 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E821CBCA477004F3185 /* UI.m */; };
 		387B4E861CBCA6D8004F3185 /* SqureListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E851CBCA6D8004F3185 /* SqureListViewController.m */; };
 		387B4E9F1CBCF80C004F3185 /* LabelSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B4E9D1CBCF80C004F3185 /* LabelSizeViewController.m */; };
@@ -62,6 +63,7 @@
 		386842B01CBE25DF00242674 /* MantleTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleTextViewController.h; sourceTree = "<group>"; };
 		386842B11CBE25DF00242674 /* MantleTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleTextViewController.m; sourceTree = "<group>"; };
 		386842B21CBE25DF00242674 /* MantleTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MantleTextViewController.xib; sourceTree = "<group>"; };
+		386CDDC71CC092540018DD47 /* libMLeaksFinder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMLeaksFinder.a; path = "../../Downloads/MLeaksFinder-master/build/Debug-iphoneos/libMLeaksFinder.a"; sourceTree = "<group>"; };
 		387B4E811CBCA477004F3185 /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
 		387B4E821CBCA477004F3185 /* UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
 		387B4E841CBCA6D8004F3185 /* SqureListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqureListViewController.h; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386CDDC81CC092540018DD47 /* libMLeaksFinder.a in Frameworks */,
 				B8B0B806709CABE2D8BC2FF3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +286,7 @@
 		4BB76ED37897C106617BA9BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				386CDDC71CC092540018DD47 /* libMLeaksFinder.a */,
 				21D88FE34529D31B2CA42EC3 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -634,6 +638,42 @@
 				INFOPLIST_FILE = VV_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBRetainCycleDetector\"",
+					"-l\"MJRefresh\"",
+					"-l\"Mantle\"",
+					"-l\"TTTAttributedLabel\"",
+					"-l\"UITableView+FDTemplateLayoutCell\"",
+					"-l\"YYCache\"",
+					"-l\"YYImage\"",
+					"-l\"YYText\"",
+					"-l\"YYWebImage\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.VV-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -647,6 +687,42 @@
 				INFOPLIST_FILE = VV_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBRetainCycleDetector\"",
+					"-l\"MJRefresh\"",
+					"-l\"Mantle\"",
+					"-l\"TTTAttributedLabel\"",
+					"-l\"UITableView+FDTemplateLayoutCell\"",
+					"-l\"YYCache\"",
+					"-l\"YYImage\"",
+					"-l\"YYText\"",
+					"-l\"YYWebImage\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "test.VV-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

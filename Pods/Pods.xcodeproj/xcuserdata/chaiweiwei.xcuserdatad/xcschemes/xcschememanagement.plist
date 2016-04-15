@@ -4,53 +4,129 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FBRetainCycleDetector.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>YYCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>YYImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>YYText.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>YYWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>426BC4549A625B5E1E4200D5261A98BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>443B06B3E94B5D114ABA96E496E4D4F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B1CDF118477C5DCD5479DBBB1C61329</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>771B073EB6AD124B8C0EAD2D748D18E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BBCF355009CA767CDCC317A2D930852</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7BC892A11919CED2CFB5AC0D32E3788C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88A1855F9D0A9C7ACFF094105596F7B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F74D9EA91F4C43190670066BAC37D44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBCE22EA1FFC435A1DABC8A616947E81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3F1530651A53F88DE60AA2FAF3B072D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

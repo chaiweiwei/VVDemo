@@ -1,4 +1,5 @@
 PODS:
+  - FBRetainCycleDetector (0.1.1)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
@@ -15,6 +16,7 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - FBRetainCycleDetector
   - Mantle
   - MJRefresh (~> 3.1.0)
   - TTTAttributedLabel (~> 1.13.4)
@@ -23,6 +25,7 @@ DEPENDENCIES:
   - YYWebImage
 
 SPEC CHECKSUMS:
+  FBRetainCycleDetector: 2f5eede420492607df2bee1807887383b9887109
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
