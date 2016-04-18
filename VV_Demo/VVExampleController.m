@@ -8,6 +8,7 @@
 
 #import "VVExampleController.h"
 #import "TestModel.h"
+#import "GlobeConst.h"
 
 @interface VVExampleController()
 @property (nonatomic, strong) NSMutableArray *titles;
@@ -55,8 +56,11 @@
 //    model2.number = @(100);
 //    
 //    model1 = model2;
+    NSLog(@"Current method: %@ %@",[self class],NSStringFromSelector(_cmd));
     
-    NSLog(@"");
+    NSArray *a;
+    [a makeObjectsPerformSelector:_cmd];
+    
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {

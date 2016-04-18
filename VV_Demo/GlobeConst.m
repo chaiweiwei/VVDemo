@@ -8,4 +8,4 @@
 
 #import "GlobeConst.h"
 
-NSString *const USER_AGE_KEY         =     @"XXXXX.userAge";
+NSString * const USER_AGE_KEY         =     @"XXXXX.userAge";
