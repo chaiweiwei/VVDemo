@@ -37,6 +37,7 @@
 		387FCC231CBB8254003DDD91 /* UILabel+VerticalUpAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCC221CBB8254003DDD91 /* UILabel+VerticalUpAlignment.m */; };
 		387FCC261CBB8439003DDD91 /* DataRequestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCC251CBB8439003DDD91 /* DataRequestTableViewController.m */; };
 		387FCC2B1CBB8476003DDD91 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 387FCC2A1CBB8476003DDD91 /* LoadingView.m */; };
+		38D97B861CC4D25700AFA373 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D97B851CC4D25700AFA373 /* GlobeConst.m */; };
 		B8B0B806709CABE2D8BC2FF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D88FE34529D31B2CA42EC3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +116,8 @@
 		387FCC251CBB8439003DDD91 /* DataRequestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequestTableViewController.m; sourceTree = "<group>"; };
 		387FCC291CBB8476003DDD91 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
 		387FCC2A1CBB8476003DDD91 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		38D97B841CC4D25700AFA373 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeConst.h; sourceTree = "<group>"; };
+		38D97B851CC4D25700AFA373 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
 		C198A8286A8235288684501F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +204,8 @@
 				387FCC101CBB6DBB003DDD91 /* VV_YYTextHttpBindingParser.m */,
 				387B4E811CBCA477004F3185 /* UITool.h */,
 				387B4E821CBCA477004F3185 /* UITool.m */,
+				38D97B841CC4D25700AFA373 /* GlobeConst.h */,
+				38D97B851CC4D25700AFA373 /* GlobeConst.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -545,6 +550,7 @@
 				387FCBDA1CBB5CAF003DDD91 /* AppDelegate.m in Sources */,
 				386CDDD51CC09FAE0018DD47 /* TestTableViewCell.m in Sources */,
 				386842B31CBE25DF00242674 /* MantleTextViewController.m in Sources */,
+				38D97B861CC4D25700AFA373 /* GlobeConst.m in Sources */,
 				387FCBD71CBB5CAF003DDD91 /* main.m in Sources */,
 				386842A71CBE007800242674 /* UiimageModelViewController.m in Sources */,
 				387FCC0A1CBB6CF0003DDD91 /* VVExampleController.m in Sources */,

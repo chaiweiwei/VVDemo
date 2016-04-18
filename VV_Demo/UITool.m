@@ -7,7 +7,6 @@
 //
 
 #import "UITool.h"
-
 @implementation UITool
 
 - (CGRect)getRectViewInSimpleSquareListUIWithWidth:(CGFloat)width left:(CGFloat)left lineSpace:(CGFloat)lineSpace column:(NSInteger)column index:(NSInteger)index{

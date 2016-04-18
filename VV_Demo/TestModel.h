@@ -24,7 +24,7 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, copy, readonly) NSURL *URL;
 @property (nonatomic, copy, readonly) NSURL *HTMLURL;
-@property (nonatomic, copy, readonly) NSNumber *number;
+@property (nonatomic, copy) NSNumber *number;
 @property (nonatomic, assign, readonly) GHIssueState state;
 @property (nonatomic, copy, readonly) NSString *reporterLogin;
 @property (nonatomic, strong, readonly) User *assignee;

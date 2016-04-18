@@ -7,6 +7,7 @@
 //
 
 #import "VVExampleController.h"
+#import "TestModel.h"
 
 @interface VVExampleController()
 @property (nonatomic, strong) NSMutableArray *titles;
@@ -32,6 +33,30 @@
     [self addCell:@"Mantle NSNull" class:@"MantleTextViewController"];
     [self addCell:@"UI空间封装demo" class:@"SimpleSelectionViewController"];
     [self.tableView reloadData];
+    
+    [self test];
+}
+
+
+- (void)test
+{
+//    NSString const *name = @"name";//内存空间的值不能变
+//    NSString *const name2 = @"name2";//指针指向的地址不能变
+//    
+//    NSString *a = @"a";
+//    NSString *b = @"b";
+//    
+//    name = a;//修改的是指针地址
+//    //    *name = b;//修改的是内存空间的值
+    
+//    TestModel *const model1 = [TestModel new];//测试得出TestModel const *model1 这样没有意义。
+//    model1.number = @(99);
+//    TestModel *model2 = [TestModel new];
+//    model2.number = @(100);
+//    
+//    model1 = model2;
+    
+    NSLog(@"");
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {

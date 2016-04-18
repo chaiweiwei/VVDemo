@@ -7,7 +7,7 @@
 //
 
 #import "SqureListViewController.h"
-#import "UI.h"
+#import "UITool.h"
 
 @implementation SqureListViewController
 
@@ -20,7 +20,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    UI *ui = [[UI alloc] init];
+    UITool *ui = [[UITool alloc] init];
     
     CGFloat tagW = ([UIScreen mainScreen].bounds.size.width - 32 - 12)/5.0;
     
@@ -30,6 +30,8 @@
         
         [self.view addSubview:view];
     }
+    
+    //NSLog(@"%@",testi)
 }
 
 - (UIView *)createViewWithRect:(CGRect)rect{
