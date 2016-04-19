@@ -1,4 +1,5 @@
 PODS:
+  - EDColor (1.0.0)
   - FBRetainCycleDetector (0.1.1)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
@@ -16,6 +17,7 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - EDColor (~> 1.0.0)
   - FBRetainCycleDetector
   - Mantle
   - MJRefresh (~> 3.1.0)
@@ -25,6 +27,7 @@ DEPENDENCIES:
   - YYWebImage
 
 SPEC CHECKSUMS:
+  EDColor: c83f9a61f9f9b3c23d541f1feb561558e29cb088
   FBRetainCycleDetector: 2f5eede420492607df2bee1807887383b9887109
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
