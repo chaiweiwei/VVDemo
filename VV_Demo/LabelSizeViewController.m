@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *label1;
 @property (weak, nonatomic) IBOutlet UILabel *label2;
+@property (weak, nonatomic) IBOutlet UILabel *label3;
 
 @end
 
@@ -25,7 +26,9 @@
     
     [self.label1 setLineSpaceWithText:string lineSpace:5 maxWidth:self.view.frame.size.width];
 
-    self.label2.text = @"当lineBreakMode是";
+    self.label2.text = @"对照组 没有设置间距";
+    
+    [self.label3 setLineSpaceWithText:@"单行文本 设置间距" lineSpace:5];
     
     NSInteger count = [self.label1 lineCountWithMaxWidth:[UIScreen mainScreen].bounds.size.width lineSpace:5];
     NSLog(@"label1 有 %ld行",(long)count);

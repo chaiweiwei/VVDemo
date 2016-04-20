@@ -37,6 +37,7 @@
 - (void)setLineSpaceWithText:(NSString *)text lineSpace:(CGFloat)space maxWidth:(CGFloat)maxWidth {
     if(text.length <= 0) {
         self.text = text;
+        return;
     }
     
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc]init];

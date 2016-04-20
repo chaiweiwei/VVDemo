@@ -84,12 +84,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VV_Demo/UILabel+VerticalUpAlignment.m"
-            timestampString = "482838401.979704"
+            timestampString = "482839393.914881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "-lineCountWithMaxWidth:lineSpace:"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-setLineSpaceWithText:lineSpace:maxWidth:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VV_Demo/UILabel+VerticalUpAlignment.m"
+            timestampString = "482839397.940421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-setLineSpaceWithText:lineSpace:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
