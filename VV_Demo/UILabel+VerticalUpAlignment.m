@@ -100,12 +100,19 @@
 }
 
 - (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth {
+    return [self lineCountWithMaxWidth:maxWidth lineSpace:0];
+}
+
+- (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth lineSpace:(CGFloat)space {
+    
+    CGFloat singleLineHeight = self.font.lineHeight;
     
     CGSize size = [self sizeThatFits:CGSizeMake(maxWidth, CGFLOAT_MAX)];
 
-    NSNumber *count = @((size.height) / self.font.lineHeight);
+    NSInteger lineCount = (size.height + space)/(singleLineHeight + space);
     
-    return [count integerValue];
+    return lineCount;
+    
 }
 
 

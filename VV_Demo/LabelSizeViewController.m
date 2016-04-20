@@ -20,11 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *string = @"当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。";
+    
+    NSString *string = @"当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail的时候高度计算失效，行距设置失效。当lineBreakMode是NSLineBreakByTruncatingTail。";
     
     [self.label1 setLineSpaceWithText:string lineSpace:5 maxWidth:self.view.frame.size.width];
+
+    self.label2.text = @"当lineBreakMode是";
     
-    self.label2.text = string;
+    NSInteger count = [self.label1 lineCountWithMaxWidth:[UIScreen mainScreen].bounds.size.width lineSpace:5];
+    NSLog(@"label1 有 %ld行",(long)count);
+    
+    count = [self.label2 lineCountWithMaxWidth:[UIScreen mainScreen].bounds.size.width];
+    NSLog(@"label2 有 %ld行",(long)count);
     
 }
 

@@ -12,13 +12,15 @@
 
 //顶部垂直居中
 - (void)verticalUpAlignmentWithText:(NSString *)text lineSpace:(CGFloat)space maxHeight:(CGFloat)maxHeight;
+
 //只有一行的时候不使用行距
 - (void)setLineSpaceWithText:(NSString *)text lineSpace:(CGFloat)space maxWidth:(CGFloat)maxWidth;
+- (void)setLineSpaceWithText:(NSString *)text lineSpace:(CGFloat)space;
 
 - (void)setAttributedTextWithColor:(NSString *)text attributeText:(NSString *)attributeText color:(UIColor *)color;
-
 - (void)setAttributedTextWithFont:(NSString *)text attributeText:(NSString *)attributeText font:(CGFloat)font;
 
 - (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth;
+- (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth lineSpace:(CGFloat)space;
 
 @end
