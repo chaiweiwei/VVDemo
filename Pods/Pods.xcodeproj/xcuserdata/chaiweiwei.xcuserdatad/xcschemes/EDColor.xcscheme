@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A3A4A1EDD7C3376ACB897932'
+               BlueprintIdentifier = 'D198AC4FCF1CDDE94563718F'
                BlueprintName = 'EDColor'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libEDColor.a'>

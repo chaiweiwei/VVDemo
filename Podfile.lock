@@ -5,6 +5,11 @@ PODS:
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
   - MJRefresh (3.1.0)
+  - SDCycleScrollView (1.62):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
   - TTTAttributedLabel (1.13.4)
   - UITableView+FDTemplateLayoutCell (1.4)
   - YYCache (1.0.3)
@@ -21,6 +26,7 @@ DEPENDENCIES:
   - FBRetainCycleDetector
   - Mantle
   - MJRefresh (~> 3.1.0)
+  - SDCycleScrollView
   - TTTAttributedLabel (~> 1.13.4)
   - UITableView+FDTemplateLayoutCell
   - YYText (~> 1.0.4)
@@ -31,6 +37,8 @@ SPEC CHECKSUMS:
   FBRetainCycleDetector: 2f5eede420492607df2bee1807887383b9887109
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDCycleScrollView: ae016cb4cc4036523917f146ede6f7b11d408f6a
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2

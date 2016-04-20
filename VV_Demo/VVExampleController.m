@@ -33,6 +33,7 @@
     [self addCell:@"UIImageView model" class:@"UiimageModelViewController"];
     [self addCell:@"Mantle NSNull" class:@"MantleTextViewController"];
     [self addCell:@"UI空间封装demo" class:@"SimpleSelectionViewController"];
+    [self addCell:@"天气预报那个滑动效果" class:@"TestViewController"];
     [self.tableView reloadData];
     
     [self test];

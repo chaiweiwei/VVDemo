@@ -99,5 +99,15 @@
     self.attributedText = attributedString;
 }
 
+- (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth {
+    
+    CGSize size = [self sizeThatFits:CGSizeMake(maxWidth, CGFLOAT_MAX)];
+
+    NSNumber *count = @((size.height) / self.font.lineHeight);
+    
+    return [count integerValue];
+}
+
+
 
 @end

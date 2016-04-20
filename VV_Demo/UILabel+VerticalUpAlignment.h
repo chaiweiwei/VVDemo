@@ -19,4 +19,6 @@
 
 - (void)setAttributedTextWithFont:(NSString *)text attributeText:(NSString *)attributeText font:(CGFloat)font;
 
+- (NSInteger)lineCountWithMaxWidth:(CGFloat)maxWidth;
+
 @end
