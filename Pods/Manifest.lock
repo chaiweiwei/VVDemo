@@ -1,49 +1,49 @@
 PODS:
   - EDColor (1.0.0)
-  - FBRetainCycleDetector (0.1.1)
-  - Mantle (2.0.6):
-    - Mantle/extobjc (= 2.0.6)
-  - Mantle/extobjc (2.0.6)
-  - MJRefresh (3.1.0)
-  - SDCycleScrollView (1.62):
+  - FBRetainCycleDetector (0.1.2)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - MJRefresh (3.1.1)
+  - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
-  - SDWebImage (3.7.5):
-    - SDWebImage/Core (= 3.7.5)
-  - SDWebImage/Core (3.7.5)
-  - TTTAttributedLabel (1.13.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - TTTAttributedLabel (2.0.0)
   - UITableView+FDTemplateLayoutCell (1.4)
   - YYCache (1.0.3)
-  - YYImage (1.0.1):
-    - YYImage/Core (= 1.0.1)
-  - YYImage/Core (1.0.1)
-  - YYText (1.0.4)
+  - YYImage (1.0.2):
+    - YYImage/Core (= 1.0.2)
+  - YYImage/Core (1.0.2)
+  - YYText (1.0.5)
   - YYWebImage (1.0.3):
     - YYCache
     - YYImage
 
 DEPENDENCIES:
-  - EDColor (~> 1.0.0)
+  - EDColor
   - FBRetainCycleDetector
   - Mantle
-  - MJRefresh (~> 3.1.0)
+  - MJRefresh
   - SDCycleScrollView
-  - TTTAttributedLabel (~> 1.13.4)
+  - TTTAttributedLabel
   - UITableView+FDTemplateLayoutCell
-  - YYText (~> 1.0.4)
+  - YYText
   - YYWebImage
 
 SPEC CHECKSUMS:
   EDColor: c83f9a61f9f9b3c23d541f1feb561558e29cb088
-  FBRetainCycleDetector: 2f5eede420492607df2bee1807887383b9887109
-  Mantle: 299966b00759634931699f69cb6a30b9239b944d
-  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
-  SDCycleScrollView: ae016cb4cc4036523917f146ede6f7b11d408f6a
-  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
-  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  MJRefresh: 70a47c5543b567cdaf70ead5a6e99ce820652eb9
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
-  YYImage: b41b45bc5f32bfcdf67bdfb9c09da9e9832357c0
-  YYText: 41761822986179828a27ccf82aa97c7b5483c2e2
+  YYImage: 2cc79ed49b9549b71c6715cefe7b0f5ab3d33abf
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
   YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
 
 COCOAPODS: 0.39.0
