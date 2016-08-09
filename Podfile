@@ -11,6 +11,3 @@ pod 'EDColor'
 pod 'SDCycleScrollView'
 
 ##test
-
-
-##tets2
